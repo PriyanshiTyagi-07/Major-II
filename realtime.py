@@ -5,7 +5,7 @@ import tensorflow as tf
 
 
 # Load trained model
-MODEL_PATH = 'speech_emotion_recognition_IESC.h5'
+MODEL_PATH = 'speech_emotion_recognition_tess.h5'
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Correct Emotion labels used during training
